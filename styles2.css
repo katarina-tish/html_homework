@@ -1,0 +1,39 @@
+/* цвета */
+/* абзацы */
+p.green { color: red; }
+p.red { color: red; }
+
+/* список */
+li.green { color: pink; }
+li.red { color: green; }
+li.blue { color: blue; }
+li.orange { color: orange; }
+
+/* защита от чёрного по умолчанию */
+ul li {
+    color: inherit;
+}
+
+
+
+/* жирность и курсив */
+.italic {
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bold i {
+    font-style: normal;
+}
+
+/* размеры текста */
+.xxsmall { font-size: xx-small; }
+.xsmall  { font-size: x-small; }
+.small   { font-size: small; }
+.medium  { font-size: medium; }
+.large   { font-size: large; }
+.xlarge  { font-size: x-large; }
+.xxlarge { font-size: xx-large; }

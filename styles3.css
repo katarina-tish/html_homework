@@ -1,0 +1,27 @@
+/* цвета */
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+/* начертания */
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* чтобы <i> внутри bold не ломал смысл */
+.bold i {
+    font-style: normal;
+}
+
